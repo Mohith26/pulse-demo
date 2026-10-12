@@ -2,7 +2,7 @@
 
 Health benefits your team will actually use.
 
-**Versions:** v2 (Linear styling + Duolingo UX redesign) at `/`, v1 (original build) frozen at `/v1/`. See `AUDIT.md` for the component audit and redesign spec. Each version keeps its own browser state.
+**Versions:** v3 (Function + Oura + Superpower for employees, Mercury + Ramp for employers) at `/`. v2 (Linear + Duolingo) at `/v2/`. v1 (original build) at `/v1/`. Each keeps its own browser state. See `FEATURES.md` for what was taken from each reference and where it lives.
 
 Pulse is a benefits platform for high-growth teams that unifies three things no one else connects: ICHRA plan administration, a flexible wellness wallet, and real financial rewards for the healthy habits employees already track on their wearables.
 
@@ -53,3 +53,19 @@ Single HTML file. React 18, Tailwind, Babel standalone. No build step.
 - Command palette (Cmd/Ctrl+K) for navigation, actions and demo role switching; `/` focuses search; Enter advances wizards; Esc closes
 - Duolingo loop: daily quests, week strip, streak chip, monthly badge quest, tier ladder, progress-over-perfection copy
 - Employer scaling: program score, setup checklist, privacy lock under 5 connected, Team tabs/filters/sort/pagination
+
+## Changelog
+
+### v3
+- Employee app rebuilt on Function Health's skeleton (cream canvas, serif display, range ladders with dated draws, systems list), Oura's language (Today / Vitals / My Health, atmospheric hero tinted by local time, arc gauge, baseline sliders, sentence insights) and Superpower's numbers (Pulse Age, letter-grade systems, status pills + sparklines, protocols).
+- New engine: 11 synthetic lab markers with history, 7 wearable markers with personal baselines, systems + grades, Pulse Score, Pulse Age, real correlation-based Discoveries, cumulative stress, protocols with daily check-ins.
+- Employer app rebuilt on Mercury's layout (quiet home, verb pills, Needs-you inbox, Command-style Ask, Team Spend tables, narrative Insights) and Ramp's automation model (7 rules, auto-approve under a limit, escalation, live "Pulse at work" counters, run log, hours saved).
+- Voice and personalization: tone (Coach / Calm / Straight talk), focus areas, spoken daily brief, mic input in Ask with spoken answers, employer priorities that reorder Home, listenable Monday digest.
+- Ask Pulse (both sides): grounded intent engine that answers from live data and takes confirmed actions (approve, invite, set wallet, recovery week, nudge, export).
+- Light by default, full dark theme, mobile tab bars on both sides.
+
+### v2
+- Linear styling + Duolingo UX redesign. See `AUDIT.md`.
+
+### v1
+- Original end-to-end build.
