@@ -2,6 +2,8 @@
 
 Health benefits your team will actually use.
 
+**Versions:** v2 (Linear styling + Duolingo UX redesign) at `/`, v1 (original build) frozen at `/v1/`. See `AUDIT.md` for the component audit and redesign spec. Each version keeps its own browser state.
+
 Pulse is a benefits platform for high-growth teams that unifies three things no one else connects: ICHRA plan administration, a flexible wellness wallet, and real financial rewards for the healthy habits employees already track on their wearables.
 
 ## What this is
@@ -41,3 +43,13 @@ Open `index.html` in a browser, or serve the folder with any static server.
 ## Stack
 
 Single HTML file. React 18, Tailwind, Babel standalone. No build step.
+
+## v2 design system
+
+- Semantic tokens on CSS variables (Geist-style 10-step gray, one accent), light and dark, follows system, toggle persisted
+- Inter 13px app type, JetBrains Mono for codes, timestamps, chart values and keyboard hints
+- `Tabs` primitive: WAI-ARIA tablist/tab/tabpanel, roving tabindex, arrow/Home/End keys, active tab background merges into the panel, overflow scroll with edge fade
+- `Segmented` radiogroup with arrow keys
+- Command palette (Cmd/Ctrl+K) for navigation, actions and demo role switching; `/` focuses search; Enter advances wizards; Esc closes
+- Duolingo loop: daily quests, week strip, streak chip, monthly badge quest, tier ladder, progress-over-perfection copy
+- Employer scaling: program score, setup checklist, privacy lock under 5 connected, Team tabs/filters/sort/pagination
