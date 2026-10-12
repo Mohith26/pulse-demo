@@ -56,6 +56,13 @@ Single HTML file. React 18, Tailwind, Babel standalone. No build step.
 
 ## Changelog
 
+### v4 (root; v3.1 archived at /v3/)
+- Unified palette from coolors.co "Vibrant Tones" (f94144 f3722c f8961e f9844a f9c74f 90be6d 43aa8b 4d908e 577590 277da1). Each color has one meaning on both sides: rewards amber, wallet teal, care blue, health lime, sleep slate, alerts red, brand orange.
+- One type family (SF Pro / Inter). Serif and monospace removed.
+- Employee app rebuilt on the Bevel template, benefits first: Rewards / Wallet / Checkups rings, coaching from Pip (mood follows your day), story cards, Status sheet (Active, Sick, Injured, On a break) that switches goals to rest check-ins without losing earned weeks, quick-action menu, reward popout, tilting wallet card, Health as one tab.
+- Employer app: Ramp sidebar with sliding indicator, Mercury spend hero with animated chart, Ramp-style "Pulse saved you" (hard savings vs estimates, with method).
+- Motion everywhere: count-up numbers, ring and chart draw-in, spring sheets (bottom sheets on mobile), staggered reveals, row exit on approve, floating tab bar on mobile.
+
 ### v3.1
 - Closed the gaps against the original spec (see `TRACE.md`): retention + satisfaction + benchmarks, burnout detail page with history, employee recovery mode, private burnout alert with opt-in manager check-in, automatic alternative standards, consent step with working data gating, wellness bonus in plan selection, locked pitch + participation guarantee, Grows with you page, offboarding with deletion certificates.
 - Real data: import an Apple Health export (zip/xml) or CSV, parsed in the browser.
