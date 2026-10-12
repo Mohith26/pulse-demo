@@ -56,6 +56,12 @@ Single HTML file. React 18, Tailwind, Babel standalone. No build step.
 
 ## Changelog
 
+### v3.1
+- Closed the gaps against the original spec (see `TRACE.md`): retention + satisfaction + benchmarks, burnout detail page with history, employee recovery mode, private burnout alert with opt-in manager check-in, automatic alternative standards, consent step with working data gating, wellness bonus in plan selection, locked pitch + participation guarantee, Grows with you page, offboarding with deletion certificates.
+- Real data: import an Apple Health export (zip/xml) or CSV, parsed in the browser.
+- Care (therapist directory and booking), team challenges, class/commute/meal rewards, financial wellness, group rates and tier discounts, preventive verification (claims, upload, self-report), quarterly satisfaction survey, one-click policy recommendations, board and carrier reports, audit log and data rights.
+- Third demo persona: Jordan Lee, who is burning out.
+
 ### v3
 - Employee app rebuilt on Function Health's skeleton (cream canvas, serif display, range ladders with dated draws, systems list), Oura's language (Today / Vitals / My Health, atmospheric hero tinted by local time, arc gauge, baseline sliders, sentence insights) and Superpower's numbers (Pulse Age, letter-grade systems, status pills + sparklines, protocols).
 - New engine: 11 synthetic lab markers with history, 7 wearable markers with personal baselines, systems + grades, Pulse Score, Pulse Age, real correlation-based Discoveries, cumulative stress, protocols with daily check-ins.
