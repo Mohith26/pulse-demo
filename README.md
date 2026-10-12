@@ -56,6 +56,9 @@ Single HTML file. React 18, Tailwind, Babel standalone. No build step.
 
 ## Changelog
 
+### v4.1
+- Benefits-admin parity with a typical platform (see PARITY.md). Employee: Plan tab with flippable ID cards, deductible tracking, enrollment wizard with plan comparison and doctor check, waive flow, dependents and beneficiaries, life events with special enrollment, proof of coverage, documents, find a doctor with cost estimates, bill advocacy, notifications. Employer: Enrollment, Plans and contributions (classes, age bands, ancillary benefits), Compliance center, Billing and payroll deductions, life event approvals, admin roles, coverage in the team drawer. Ask understands the new features.
+
 ### v4 (root; v3.1 archived at /v3/)
 - Unified palette from coolors.co "Vibrant Tones" (f94144 f3722c f8961e f9844a f9c74f 90be6d 43aa8b 4d908e 577590 277da1). Each color has one meaning on both sides: rewards amber, wallet teal, care blue, health lime, sleep slate, alerts red, brand orange.
 - One type family (SF Pro / Inter). Serif and monospace removed.
